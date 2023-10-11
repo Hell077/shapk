@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/1d/ae/75/1dae75c980b6cdcf98438172f0d6e599.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+/* Вверх сайта с кнопками   */
+.hg{
+   width: 100%;
+   position: fixed;
+   top: 0;
+   height: 70px;
+   background-color: rgb(44, 42, 42);
+   left: 0;
+   z-index: 150;
+   padding-right: 100px;
+   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+   
+    
+   
+}
+
+/* Размер и стиль  кнопок ниже */
+.w0, .w1, .w2, .w3, .w4, .w5{
+    font-size: 1.08em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+/* Кнопка главная  */
+.w0{
+    margin-left: 16vw;
+    margin-top: 20px;
+    background-color: rgb(44, 42, 42);
+    height: 36px;
+    border: 0;
+}
+.w0 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 115%;
+}
+
+/* Кнопка со своим авто */
+
+.w1{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(44, 42, 42);
+    height: 36px;
+    border: 0;
+}
+
+.w1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 115%;
+}
+/* Кнока с авто компании */
+.w2{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(44, 42, 42);
+    height: 36px;
+    border: 0;
+}
+
+.w2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 115%;
+}
+
+/* Требования */
+.w3{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(44, 42, 42);
+    height: 36px;
+    border: 0;
+}
+
+.w3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 115%;
+}
+
+/* Контакты */
+.w4{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(44, 42, 42);
+    height: 36px;
+    border: 0;
+}
+
+.w4 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 115%;
+}
+
+/* Оставить заяку */
+.w5{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(44, 42, 42);
+    height: 36px;
+    border: 0;
+    
+}
+
+.w5 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 115%;
+}
+
+/* Полупрозрачная полоса под верхней строкой */
+#hg2{
+    width: 100%;
+    top: 30px;
+    height: 170px;
+    left: 0;
+    background-color:rgba(44, 42, 42, 80%);
+    border: 0;
+    position: relative;
+    z-index: 100;
+}
+
+.q1{
+    background-color: rgb(0, 247, 247);
+    margin-top: 60px;
+    margin-left: 170vh;
+    width: 220px;
+    height: 70px;
+    border-radius: 6%;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom,#87C7FF,#005ebd);
+  }  
+
+.q1 a{
+    color: white;
+    text-decoration: none;}
+
+    .f1 {
+        color: rgb(255, 255, 255);
+        z-index: 110;
+        position: absolute;
+        right: 20px; 
+        margin-top: -75px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        margin-right: 22.5em;
+        
+      }
+      
+      .f2 {
+        color: rgb(255, 255, 255);
+        z-index: 110;
+        position: absolute;
+        right: 20px; 
+        margin-top: -63px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        margin-right: 13.5em;
+      }
+
+/* Лого и надпись про партнерство  */
+.j1{
+    max-width: 100%;
+    min-width: none;
+    height: 1.7em;
+    z-index: 110;
+    position:absolute;
+    margin-top: -6em;
+    margin-left: 13em;
+
+}
+
+.j2{
+    max-width: 100%;
+    height: 1em;
+    z-index: 110;
+    position: absolute;
+    margin-top: -3.5em;
+    margin-left: 12em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.08em;
+
+}
+
+/* большой текст в центре */
+
+.o1{
+    color: white;
+    text-align: center;
+    border: 0;
+    font-family:'Roboto', sans-serif; 
+    margin-top: 1.5em;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.o1 .o2{
+    font-size:1.3em ;
+}
+
+.o3{
+    font-size: 0.7em;
+}
+
+.o4{
+    font-size: 0.5em;
+    font-weight: 400;
+    
+
+}
+
+.q111 {
+    max-width: 18em;
+    margin: 0 auto;
+    text-align: center;
+    max-height: 8em;
+}
+
+.b9{
+    margin-top: 8em;
+    width: 211px;
+    height: 63px;
+    background:linear-gradient(to bottom,#87C7FF,#005ebd);
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6%;
+    border: 0;
+    margin-bottom: 7em;
+    
+}
+
+.b10{
+    text-decoration: none;
+    color: white;
+}
+
+.k1{
+    background-color: white;
+    width: 100%;
+    height: 5250px;
+    top: -45px;
+    left: 118px;
+    padding-top:0.5em;
+}
+ 
+.k2{
+    font-family: Roboto;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 4em;
+    padding-bottom: 2em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    max-width:8em;
+    margin: 0 auto;
+    max-height: 1px;
+
+}
+
+.k3{
+    text-align: center;
+    font-family:Roboto;
+    font-weight: 900;
+    padding: 1em;
+    font-size: 40px;
+    
+}
+
+
+.k4{
+
+}
+
+.k5{
+    font-family: Roboto;
+    font-size: 1,1em;
+    font-weight: 800;
+    line-height: 21px;
+    max-width:12em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
